@@ -22,7 +22,4 @@ public class GitDemoApplication {
     String test() {
         return "test";
     }
-
-    //feature 009
-    //a commit to squash
 }
