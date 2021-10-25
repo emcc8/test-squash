@@ -17,4 +17,9 @@ public class GitDemoApplication {
     String greet() {
         return "Hello, Spring!";
     }
+
+    @GetMapping("/test")
+    String test() {
+        return "test";
+    }
 }
